@@ -21,7 +21,7 @@ Iniciar aplicacion de backend
 
 ### ¿Que hay que hacer?
 
-Se desea realizar una comunicación entre el frontend y el backend, para esto vamos a crear un endpoint en el backend que devuelva un objeto en formato JSON con un numero aleatorio generado automaticamente en cada petición.
+Se desea realizar una comunicación entre el frontend y el backend, para esto vamos a crear un endpoint en el backend que devuelva un objeto en formato JSON con un número aleatorio generado automáticamente en cada petición.
 El frontend deberá consumir dicho endpoint mediante el uso de HttpClient de Angular y mostrar el resultado en pantalla.
 
 ## Entregable
