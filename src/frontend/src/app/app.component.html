@@ -12,10 +12,10 @@
       <div class="card blue-grey darken-1">
         <div class="card-content white-text">
           <span class="card-title"> Resultado </span>
-          <p> {{ resultado }} </p>
+          <p>  {{ resultado }}</p>
         </div>
         <div class="card-action">
-          <a href="javascript:;"> Cargar resultado </a>
+          <a href="javascript:;" (click)="printScore(resultado)"> Cargar resultado </a>
         </div>
       </div>
     </div>

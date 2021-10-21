@@ -9,6 +9,13 @@ app.get('/', (req, res) => {
   res.send('Welcome to backend!');
 });
 
+app.post('/bet', (req, res) => {
+  res.json({
+     bet: parseInt(Math.random() * (99 - 10) + 20)
+  
+   });
+});
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
